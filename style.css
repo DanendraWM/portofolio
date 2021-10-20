@@ -1,0 +1,400 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    background-color: #98C1D9;
+    width: 100%;
+    height: 100px;
+    position: fixed;
+}
+
+.nav img {
+    margin-left: 100px;
+}
+
+.nav ul {
+    float: right;
+    display: flex;
+    margin-right: 130px;
+    margin-top: 35px;
+}
+
+.nav li {
+    list-style: none;
+}
+
+a {
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    padding-right: 20px;
+    font-family: 'Lato',
+        sans-serif;
+    ;
+}
+
+.bg {
+    background-image: linear-gradient(#293241 30%, #1F2632 40%);
+    width: 100%;
+    height: 100%;
+    margin-top: 79px;
+}
+
+.profil {
+    margin-top: 100px;
+    margin-left: 80px;
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    background-color: black;
+    background-image: url(img/duduk.jpeg);
+    background-size: 400px 400px;
+    background-repeat: no-repeat;
+    box-shadow: -30px 40px 50px;
+
+}
+
+.kata {
+    border-radius: 30px;
+    width: 600px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.39);
+    margin-top: 100px;
+    margin-left: 50px;
+    /* opacity: 30%; */
+    color: white;
+    font-weight: 500;
+    padding: 50px 50px 50px 50px;
+    font-family: 'PT Sans',
+        sans-serif;
+    font-size: 24px;
+}
+
+.kata h3 {
+    margin-bottom: 10px;
+}
+
+
+#sekolah {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+
+.card {
+    width: 300px;
+    min-height: 200px;
+    background-color: rgb(4, 56, 25);
+    margin-left: 100px;
+    margin-top: 10px;
+    transition: min-height 0.5s;
+    overflow: hidden;
+}
+
+.card:hover {
+    background-color: rgb(87, 87, 87);
+    min-height: 300px;
+    box-shadow: -30px 40px 50px;
+    background-size: 100px;
+}
+
+.desk {
+    padding-left: 10px;
+}
+
+.dalem {
+    width: 100%;
+    height: 80%;
+}
+
+
+#tentang {
+    display: flex;
+}
+
+.teksokah {
+    margin-top: 120px;
+    margin-left: 100px;
+    color: rgb(241, 230, 210);
+    font-size: 30px;
+}
+
+#pengalaman {
+    margin: auto;
+    color: black;
+    background-color: whitesmoke;
+    width: 70%;
+    height: 100%;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+#pengalaman h2 {
+    margin-left: 30px;
+}
+
+.kerja {
+    width: 80%;
+    padding-left: 80px;
+    padding-top: 10px;
+}
+
+
+.data p {
+    padding-top: 10px;
+}
+
+
+
+.bg2 {
+    background-color: rgb(62, 46, 0);
+    height: 1000px;
+    width: 100%;
+}
+
+#kemampuan {
+    width: 80%;
+    height: 800px;
+    background-color: lightgray;
+    margin: auto;
+    margin-bottom: 100px;
+    border-radius: 10px;
+}
+
+.list-persen li {
+    padding-left: 30px;
+    float: left;
+    list-style: none;
+    margin-left: 90px;
+    margin-top: 50px;
+    width: 180px;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.list-persen li img {
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.list-persen li h3 {
+    float: right;
+    padding-top: 40px;
+    padding-left: 10px;
+    margin-left: 10px;
+}
+
+.mampu {
+    margin-top: 100px;
+    color: white;
+    text-align: center;
+}
+
+#hasil {
+    margin: auto;
+    margin-top: 100px;
+    color: white;
+    height: 600px;
+}
+
+#hasil h1 {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+#hasil li {
+    margin-top: 30px;
+    padding-left: 180px;
+    font-family: sans-serif;
+    width: 80%;
+}
+
+#hasil li img {
+    margin-left: 30px;
+    margin-top: 40px;
+}
+
+
+@media(max-width:400px)
+
+/* Mobile phone */
+    {
+    .nav ul {
+        margin: auto;
+    }
+
+    h1 {
+        font-size: 10px;
+    }
+
+    p {
+        font-size: 10px;
+    }
+
+    li {
+        font-size: 10px;
+    }
+
+    .nav {
+        height: 50px;
+        width: 100%;
+        display: flex;
+
+    }
+
+    .nav img {
+        margin-left: 0;
+        display: none;
+    }
+
+    a {
+        font-size: 10px;
+        padding-right: 5px;
+    }
+
+    .bg {
+        width: 100%;
+        height: 100%;
+        margin-top: 25px;
+    }
+
+    .kata {
+        padding-left: 20px;
+        padding-top: 15px;
+        padding-right: 10px;
+        font-size: 3px;
+        width: 300px;
+        margin-right: 20px;
+        height: 100%;
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+
+    .profil {
+        height: 100px;
+        width: 200px;
+        background-size: 100px;
+        padding-top: 10px;
+        border-radius: 100px;
+        margin-left: 10px;
+        background-repeat: repeat;
+    }
+
+    .card {
+        width: 100px;
+        min-height: 100px;
+        background-color: black;
+        margin: auto;
+        transition: min-height 0.5s;
+        overflow: hidden;
+    }
+
+    .card:hover {
+        background-color: rgb(87, 87, 87);
+        min-height: 140px;
+        box-shadow: -3px 4px 5px;
+        background-size: 100px;
+    }
+
+    .teksokah {
+        margin-top: 10px;
+        margin-left: 20px;
+        margin-bottom: 10px;
+        color: rgb(241, 230, 210);
+        font-size: 12px;
+
+    }
+
+    .dalem {
+        width: 100px;
+        height: 100px;
+    }
+
+    .desk {
+        font-size: 10px;
+        padding-top: 1px;
+    }
+
+
+    #pengalaman {
+        font-size: 10px;
+        padding-top: 10px;
+    }
+
+    #pengalaman h2 {
+        margin-left: 10px;
+    }
+
+    .kerja {
+        width: 80%;
+        padding-left: 30px;
+    }
+
+    #kemampuan {
+        width: 80%;
+        height: 300px;
+        background-color: lightgray;
+        margin: auto;
+        margin-bottom: 100px;
+        border-radius: 10px;
+    }
+
+    .list-persen li {
+        padding-left: 10px;
+        float: left;
+        list-style: none;
+        margin-left: 0px;
+        margin-top: 20px;
+        width: 100px;
+        border-radius: 10px;
+    }
+
+    .list-persen li img {
+        padding-left: 20px;
+        padding-top: 0px;
+        width: 30px;
+        height: 30px;
+    }
+
+    .list-persen li h3 {
+        float: right;
+        padding-top: 10px;
+        padding-left: 5px;
+        margin-left: 0px;
+    }
+
+    .mampu {
+        margin-bottom: 10px;
+    }
+
+    #hasil {
+        margin: auto;
+        margin-top: 20px;
+        color: white;
+        height: 600px;
+    }
+
+    #hasil h1 {
+        text-align: center;
+        font-family: sans-serif;
+    }
+
+    #hasil li {
+        margin-top: 30px;
+        padding-left: 50px;
+        font-family: sans-serif;
+        width: 80%;
+    }
+
+    #hasil li img {
+        margin-left: 10px;
+        margin-top: 10px;
+        width: 50px;
+        height: 50px;
+    }
+
+}
+
+@media(max-width:900px) {}
