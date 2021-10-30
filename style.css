@@ -36,10 +36,10 @@ a {
 }
 
 .bg {
-    background-image: linear-gradient(#293241 30%, #1F2632 40%);
+    background-image: linear-gradient(#293241 40%, #1F2632 60%);
     width: 100%;
-    height: 100%;
-    margin-top: 79px;
+    height: 4000px;
+    margin-top: 75px;
 }
 
 .profil {
@@ -126,7 +126,6 @@ a {
     color: black;
     background-color: whitesmoke;
     width: 70%;
-    height: 100%;
     padding-top: 30px;
     padding-bottom: 50px;
 }
@@ -216,6 +215,29 @@ a {
     margin-top: 40px;
 }
 
+#hasil a {
+    color: lightblue;
+}
+
+#hasil .web ul {
+    width: 90%;
+    display: flex;
+}
+
+#hasil .web ul li {
+    padding-left: 0;
+    list-style: none;
+    margin-left: 30px;
+}
+
+#hasil .web p {
+    width: 100%;
+}
+
+#hasil .web img {
+    margin-right: 30px;
+    margin-left: 0;
+}
 
 @media(max-width:400px)
 
@@ -256,7 +278,7 @@ a {
 
     .bg {
         width: 100%;
-        height: 100%;
+        height: 2000px;
         margin-top: 25px;
     }
 
@@ -394,6 +416,30 @@ a {
         width: 50px;
         height: 50px;
     }
+
+    #hasil .web ul {
+        width: 90%;
+        display: flex;
+    }
+
+    #hasil .web ul li {
+        padding-left: 0;
+        list-style: none;
+        margin-left: 10px;
+    }
+
+    #hasil .web p {
+        width: 100%;
+        font-size: 5px;
+    }
+
+    #hasil .web img {
+        margin-right: 30px;
+        margin-left: 0;
+        width: 70px;
+        height: 100px;
+    }
+
 
 }
 
