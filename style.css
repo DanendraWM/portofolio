@@ -393,7 +393,7 @@ a {
 
     #hasil {
         margin: auto;
-        margin-top: 20px;
+        margin-top: 10px;
         color: white;
         height: 600px;
     }
@@ -430,7 +430,7 @@ a {
 
     #hasil .web p {
         width: 100%;
-        font-size: 5px;
+        font-size: 15px;
     }
 
     #hasil .web img {
